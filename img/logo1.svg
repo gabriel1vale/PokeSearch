@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="100 150 400 100">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 50px;
+        text-anchor: middle;
+        font-family: Conthrax;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <text id="PokeSearch" class="cls-1" x="300" y="219"><tspan x="300">PokeSearch</tspan></text>
+</svg>

@@ -1,0 +1,57 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>PokeSearch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+
+<header>
+    
+        <div id="topbar">
+        <img src="img/logo1.png" id=toplogo>
+        </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" id="butbusca">Busca</a></li>
+            <li><a href="sobre.html" id="butsobre">Sobre</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div id="box">
+
+        <input type="text" pattern="[a-z]*" id="pokemon-name-input" placeholder="Procure pelo Pokemon: Ex: Charizard...">
+
+        <ul id="pokelist"></ul>
+
+        <div id="pokemon-modal">
+            <div id="pokemon-modal-content" class="animated">
+                <span id="close-modal-button">&times;</span>
+                <div id="pokemon-container">
+                    <img id="pokemon-image">
+                    <h1 id="pokemon-name"></h1>
+                    <div id="pokeinfo">
+                        <p><strong>ID:</strong> <span id="pokemon-id"></span></p>
+                        <p><strong>Altura(m):</strong> <span id="pokemon-height"></span></p>
+                        <p><strong>Peso(kg):</strong> <span id="pokemon-weight"></span></p>
+                        <p><strong>Tipos:</strong> <span id="pokemon-types"></span></p>
+                        <p><strong>Habilidades:</strong> <span id="pokemon-abilities"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
